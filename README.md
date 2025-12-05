@@ -36,21 +36,19 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
-<img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
+
+<img width="1600" height="994" alt="image" src="https://github.com/user-attachments/assets/2de043ce-7605-4b16-9019-8de49c7b274a" />
+
 
 
 ## MODEL GRAPH
-<img width="556" height="380" alt="image" src="https://github.com/user-attachments/assets/caa7461c-69f7-4636-8e31-eea6db6efbb5" />
-
-<img width="847" height="553" alt="image" src="https://github.com/user-attachments/assets/d8d3e586-8e58-47ba-baae-2794c7955d51" />
+<img width="1600" height="1150" alt="image" src="https://github.com/user-attachments/assets/34fd2409-74aa-45a2-98e3-0635f711231d" />
 
 ---
 
 ## DESIGN
 
-To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
-We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
-We get , R1 =	and hence Rf = 	
+<img width="1462" height="1600" alt="image" src="https://github.com/user-attachments/assets/943fcdf8-9404-4a23-b4fc-a522bdc3eb00" />
 
 ## PROCEDURE
 
@@ -61,15 +59,15 @@ We get , R1 =	and hence Rf =
 
 
 ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
+
+<img width="1600" height="642" alt="image" src="https://github.com/user-attachments/assets/4b04861f-9b51-4759-b032-d0bf2696c4f8" />
+
 		
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1303" height="1600" alt="image" src="https://github.com/user-attachments/assets/9d3bb6e6-db9d-4de4-92bd-75dc104ff966" />
 
 
 ---
@@ -109,36 +107,21 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-<img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
 
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/7ef537bd-f5de-4f25-a5f6-eba63589d865" />
 
 
 ## MODEL GRAPH
 
-(i)	 SINE WAVE INPUT
+<img width="1397" height="1600" alt="image" src="https://github.com/user-attachments/assets/dc9ff785-92ad-4835-b7e3-ff373c0ccdf4" />
 
-<img width="687" height="479" alt="image" src="https://github.com/user-attachments/assets/c89226c0-c2bb-4544-b355-27fc0d923f1a" />
----
-
-AND
-
-(ii) SQUARE WAVE INPUT
-
-<img width="758" height="447" alt="image" src="https://github.com/user-attachments/assets/cda33b00-c40c-490f-a9bd-e06107119c25" />
 
 
 ---
 
 ## DESIGN
 
-Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ Select fa = fmax = 100 HZ = 1 / 2πRFC1
-Let C1 = 0.1μF
-Then RF = 1 / 2π(102)(10-7)
-= 15.9KΩ
-Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
-= 1.59KΩ Since RFCF = R1C1
-We get, CF = (1.59*103*10-7) / 15.9*103
-= 0.01μF
+<img width="1462" height="1600" alt="image" src="https://github.com/user-attachments/assets/8fb22bab-3e5b-4574-b1d7-0415624af3c2" />
 
 
 ## PROCEDURE
@@ -149,13 +132,13 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
  ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
+
+<img width="1600" height="828" alt="image" src="https://github.com/user-attachments/assets/ade05211-fee9-4484-a202-606d58da868a" />
 		
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="1397" height="1600" alt="image" src="https://github.com/user-attachments/assets/6ebf9b0a-cbe6-46aa-ab32-a64f1cb5ec3b" />
 
 ---
 
