@@ -71,80 +71,69 @@ CIRCUIT DIAGRAM
 
 
 ---
-**DATE:**  
-             3 B DIFFERENTIATOR
----
 
-## AIM
-To design and test the performance of integrator and differentiator circuits using Op-amp
+             
+# DIFFERENTIATOR-USING-OP-AMP
 
----
+AIM:
+To design and test the performance of differentiator circuits using Op-amp.
 
-## APPARATUS REQUIRED
+APPARATUS REQUIRED:
+<img width="711" height="200" alt="image" src="https://github.com/user-attachments/assets/bb2d2881-17e3-4c7d-bbb1-ad332bbbc5c9" />
 
-| S.No | Name of the Apparatus | Range | Quantity |
-|------|------------------------|--------|-----------|
-| 1 | Function Generator | 3 MHz | 1 |
-| 2 | DSO | 30 MHz | 1 |
-| 3 | Dual RPS | (0 – 30) V | 1 |
-| 4 | Op-Amp | µA741 | 1 |
-| 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1K,10K,100K  | 2 |
-| 7 | capacitors | 0.1µF,0.01µF | 1 |
-| 8 | Connecting wires and probes | As required | — |
-
----
-
-## THEORY
+THEORY:
 DIFFEERENTIATOR:
 The differentiator circuit performs the mathematical operation of differentiation; that is, the output waveform is the derivative of the input waveform. The differentiator may be constructed from a basic inverting amplifier if an input resistor R1 is replaced by a capacitor C1 . The expression for the output voltage is given as,
-Vo = - Rf C1 ( dVi /dt )
+
+<img width="175" height="52" alt="image" src="https://github.com/user-attachments/assets/5577dd59-b261-43e8-852e-28c4a9bfea20" />
 
 Here the negative sign indicates that the output voltage is 180 0 out of phase with the input signal. A resistor Rcomp = Rf is normally connected to the non-inverting input terminal of the op-amp to compensate for the input bias current. A workable differentiator can be designed by implementing the following steps:
 1.	Select fa equal to the highest frequency of the input signal to be differentiated. Then, assuming a value of C1 < 1 µF, calculate the value of Rf.
-2.	Choose fb = 20 fa and calculate the values of R1 and Cf so that R1C1 = Rf Cf.
+2.	   Choose fb = 20 fa and calculate the values of R1 and Cf so that R1C1 = Rf Cf.
 
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
-## CIRCUIT DIAGRAM
+DESIGN (DIFFERENTIATOR):
 
-<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/7ef537bd-f5de-4f25-a5f6-eba63589d865" />
+Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ
+Select fa = fmax = 100 HZ = 1 / 2πRFC1
+Let C1 = 0.1μF
+Then RF = 1 / 2π(102)(10-7)
+                = 15.9KΩ
+Now choose fb = 10fa = 1 / 2πR1C1
+Therefore, R1 = 1 / 2π(103)(10-7)
+         		= 1.59KΩ
+Since RFCF = R1C1
+We get, CF = (1.59*103*10-7) / 15.9*103
+       = 0.01μF
 
+DIFFERENTIATOR  CIRCUIT DIAGRAM:
+<img width="759" height="414" alt="image" src="https://github.com/user-attachments/assets/ed2d11b0-7ae1-4526-b4f6-27014619c24a" />
 
-## MODEL GRAPH
-
-<img width="1397" height="1600" alt="image" src="https://github.com/user-attachments/assets/dc9ff785-92ad-4835-b7e3-ff373c0ccdf4" />
-
-
-
----
-
-## DESIGN
-
-<img width="1462" height="1600" alt="image" src="https://github.com/user-attachments/assets/8fb22bab-3e5b-4574-b1d7-0415624af3c2" />
-
-
-## PROCEDURE
-
-1.	Connections are given as per the circuit diagram
+PROCEDURE:
+1. Connections are given as per the circuit diagram
 2. + Vcc and - Vcc supply is given to the power supply terminal of the Op-Amp IC.
-3.	By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
-4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
+3. By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
+4. The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
- ## TABULATION
+MODEL GRAPH:  
+DIFFERENTIATOR          
+(i) SINE WAVE INPUT
+<img width="688" height="480" alt="image" src="https://github.com/user-attachments/assets/5a790cb8-1a8b-4990-b599-3c7680c24545" />
 
-<img width="1600" height="828" alt="image" src="https://github.com/user-attachments/assets/ade05211-fee9-4484-a202-606d58da868a" />
-		
+(ii) SQUARE WAVE INPUT
+<img width="757" height="447" alt="image" src="https://github.com/user-attachments/assets/3bb38583-c020-43ad-8b15-c03f1f545842" />
 
-## OUT PUT WAVEFORM AND DISCUSSION 
+TABULATION:
+![WhatsApp Image 2025-11-18 at 10 58 27_ce621d2e](https://github.com/user-attachments/assets/f2abd0ab-b854-408c-ac91-2e05d797457b)
 
-<img width="1397" height="1600" alt="image" src="https://github.com/user-attachments/assets/6ebf9b0a-cbe6-46aa-ab32-a64f1cb5ec3b" />
 
----
+GRAPH:
+
+![WhatsApp Image 2025-11-18 at 10 58 33_1fb54055](https://github.com/user-attachments/assets/6c7136cd-168e-46b8-b598-1e6274866fea)
 
 RESULT:
-Thus an Integrator and Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
----
+![WhatsApp Image 2025-11-18 at 10 58 45_3a7f0c1e](https://github.com/user-attachments/assets/8c91dbf3-cc17-4a2a-9839-a3a4a744a529)
 
 
 
