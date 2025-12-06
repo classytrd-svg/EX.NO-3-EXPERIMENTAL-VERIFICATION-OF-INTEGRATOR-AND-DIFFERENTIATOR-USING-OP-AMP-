@@ -125,15 +125,14 @@ DIFFERENTIATOR
 <img width="757" height="447" alt="image" src="https://github.com/user-attachments/assets/3bb38583-c020-43ad-8b15-c03f1f545842" />
 
 TABULATION:
-![WhatsApp Image 2025-11-18 at 10 58 27_ce621d2e](https://github.com/user-attachments/assets/f2abd0ab-b854-408c-ac91-2e05d797457b)
 
+<img width="1156" height="552" alt="image" src="https://github.com/user-attachments/assets/2853c2ec-f5a9-4689-a1dc-04d7be138144" />
 
 GRAPH:
 
-![WhatsApp Image 2025-11-18 at 10 58 33_1fb54055](https://github.com/user-attachments/assets/6c7136cd-168e-46b8-b598-1e6274866fea)
+<img width="980" height="1280" alt="image" src="https://github.com/user-attachments/assets/2b0331e6-dedf-455b-b5a7-73ecc8229c51" />
 
 RESULT:
-![WhatsApp Image 2025-11-18 at 10 58 45_3a7f0c1e](https://github.com/user-attachments/assets/8c91dbf3-cc17-4a2a-9839-a3a4a744a529)
 
 
 
