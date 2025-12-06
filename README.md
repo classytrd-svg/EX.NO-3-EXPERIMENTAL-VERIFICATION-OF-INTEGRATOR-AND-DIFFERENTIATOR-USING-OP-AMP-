@@ -116,13 +116,6 @@ PROCEDURE:
 3. By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
 4. The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
-MODEL GRAPH:  
-DIFFERENTIATOR          
-(i) SINE WAVE INPUT
-<img width="688" height="480" alt="image" src="https://github.com/user-attachments/assets/5a790cb8-1a8b-4990-b599-3c7680c24545" />
-
-(ii) SQUARE WAVE INPUT
-<img width="757" height="447" alt="image" src="https://github.com/user-attachments/assets/3bb38583-c020-43ad-8b15-c03f1f545842" />
 
 TABULATION:
 
